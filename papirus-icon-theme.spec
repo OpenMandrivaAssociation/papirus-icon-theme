@@ -24,6 +24,7 @@ Papirus icon theme is available in six variants:
  - Papirus Adapta (for Adapta)
  - Papirus Adapta Nokto (for Adapta Nokto)
  - ePapirus (for elementary OS and Pantheon Desktop)
+ - ePapirus Dark
 
 %prep
 %autosetup
@@ -65,6 +66,7 @@ done
 %license LICENSE
 %doc AUTHORS README.md
 %{_datadir}/icons/ePapirus
+%{_datadir}/icons/ePapirus-Dark
 %{_datadir}/icons/Papirus
 %{_datadir}/icons/Papirus-Adapta
 %{_datadir}/icons/Papirus-Adapta-Nokto

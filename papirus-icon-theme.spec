@@ -72,9 +72,9 @@ done
 %{_datadir}/icons/Papirus-Adapta-Nokto
 %{_datadir}/icons/Papirus-Dark
 %{_datadir}/icons/Papirus-Light
-%ghost %{_datadir}/icons/ePapirus/icon-theme.cache
-%ghost %{_datadir}/icons/Papirus/icon-theme.cache
-%ghost %{_datadir}/icons/Papirus-Adapta/icon-theme.cache
-%ghost %{_datadir}/icons/Papirus-Adapta-Nokto/icon-theme.cache
-%ghost %{_datadir}/icons/Papirus-Dark/icon-theme.cache
-%ghost %{_datadir}/icons/Papirus-Light/icon-theme.cache
+#ghost %{_datadir}/icons/ePapirus/icon-theme.cache
+#ghost %{_datadir}/icons/Papirus/icon-theme.cache
+#ghost %{_datadir}/icons/Papirus-Adapta/icon-theme.cache
+#ghost %{_datadir}/icons/Papirus-Adapta-Nokto/icon-theme.cache
+#ghost %{_datadir}/icons/Papirus-Dark/icon-theme.cache
+#ghost %{_datadir}/icons/Papirus-Light/icon-theme.cache

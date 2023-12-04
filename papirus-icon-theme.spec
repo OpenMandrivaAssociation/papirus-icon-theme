@@ -1,5 +1,5 @@
 Name:           papirus-icon-theme
-Version:        20231101
+Version:        20231201
 Release:        1
 Summary:        Free and open source SVG icon theme based on Paper Icon Set
 
@@ -25,6 +25,15 @@ Papirus icon theme is available in six variants:
  - Papirus Adapta Nokto (for Adapta Nokto)
  - ePapirus (for elementary OS and Pantheon Desktop)
  - ePapirus Dark
+
+%package -n epapirus-icon-theme
+Summary:	ePapirus icon theme
+Requires: %{name} = %{EVRD}
+
+%description -n epapirus-icon-theme
+This package contains:
+- ePapirus (for elementary OS and Pantheon Desktop)
+- ePapirus Dark
 
 %prep
 %autosetup
@@ -65,16 +74,12 @@ done
 %files
 %license LICENSE
 %doc AUTHORS README.md
-%{_datadir}/icons/ePapirus
-%{_datadir}/icons/ePapirus-Dark
 %{_datadir}/icons/Papirus
 %{_datadir}/icons/Papirus-Adapta
 %{_datadir}/icons/Papirus-Adapta-Nokto
 %{_datadir}/icons/Papirus-Dark
 %{_datadir}/icons/Papirus-Light
-#ghost %{_datadir}/icons/ePapirus/icon-theme.cache
-#ghost %{_datadir}/icons/Papirus/icon-theme.cache
-#ghost %{_datadir}/icons/Papirus-Adapta/icon-theme.cache
-#ghost %{_datadir}/icons/Papirus-Adapta-Nokto/icon-theme.cache
-#ghost %{_datadir}/icons/Papirus-Dark/icon-theme.cache
-#ghost %{_datadir}/icons/Papirus-Light/icon-theme.cache
+
+%files -n epapirus-icon-theme
+%{_datadir}/icons/ePapirus
+%{_datadir}/icons/ePapirus-Dark

@@ -82,4 +82,4 @@ done
 
 %files -n epapirus-icon-theme
 %{_datadir}/icons/ePapirus
-%{_datadir}/icons/ePapirus-Dark
+#{_datadir}/icons/ePapirus-Dark
